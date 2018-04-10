@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D4C41"
+    tools:context="com.example.mac.takehomeassignment09_yup.MainActivity">
+
+   <ImageView
+       android:id="@+id/coffee"
+       android:layout_width="350dp"
+       android:layout_height="220dp"
+       android:src="@drawable/coffee"
+       android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:src="@drawable/bean"
+        android:layout_below="@id/coffee"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3E2723"
+        android:layout_marginBottom="8dp"
+        android:text="Cusomize your Coffee"
+        android:textColor="#A1887F"
+        android:textSize="20sp"
+        android:onClick="customize"/>
+
+</RelativeLayout>
